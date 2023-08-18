@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALBIN'S ALFAHM</title>
+    
+    <!-- Internal Styles -->
+    <style>
+        h1 {
+            color: #333;
+        }
+        
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin-bottom: 20px;
+        }
+        
+        th, td {
+            border: 1px solid #333;
+            padding: 8px;
+            text-align: center;
+        }
+        
+        form {
+            background-color: #ff0101;
+            padding: 20px;
+            border-radius: 5px;
+            width: 300px;
+        }
+        
+        label, input {
+            display: block;
+            margin-bottom: 10px;
+        }
+        
+        input[type="text"], input[type="email"], input[type="number"] {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+        }
+        
+        input[type="submit"] {
+            background-color: #333;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+        
+        input[type="submit"]:hover {
+            background-color: #555;
+        }
+    </style>
+    
+    <!-- External Styles -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Albin's Alfahm</h1>
+
+    <!-- Image -->
+    <img src="alfahm.jpg"  width="300" height="200">
+
+    <!-- Table -->
+    <table>
+        <tr>
+            <th>ITEMS</th>
+            <th>PRIZE</th>
+        </tr>
+        <tr>
+            <td>PERIPERI ALFAHM</td>
+            <td>10$</td>
+        </tr>
+        <tr>
+            <td>TURKISH ALFAHM</td>
+            <td>13$</td>
+        </tr>
+    </table>
+
+    <!-- Form -->
+    <form action="#" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" min="0" required>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
+
